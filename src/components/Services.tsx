@@ -20,15 +20,20 @@ export default function Services() {
     },
     {
       num: "02.",
-      title: "Development",
+      title: "Frontend Development",
       description:
-        "Create, learn, iterate, and iterate. We understand how to extract logic and order from chaos. It's how we develop products that go beyond the forefront and become the next.",
+        "I build fast, responsive, and user-friendly web interfaces using modern frontend technologies. My focus is on creating pixel-perfect, accessible, and high-performance websites that deliver seamless user experiences across all devices.",
       skills: [
-        "iOS Development",
-        "Website Development",
-        "Android Development",
-        "Backend Development",
-        "Webflow Development",
+        "React.js",
+        "Next.js",
+        "Tailwind CSS",
+        "JavaScript (ES6+)",
+        "TypeScript",
+        "HTML5 & CSS3",
+        "Bootstrap",
+        "Responsive Web Development",
+        "Frontend Performance Optimization",
+        "UI Component Development",
       ],
     },
   ];
@@ -40,7 +45,7 @@ export default function Services() {
       <div className="absolute bottom-1/4 left-0 w-72 h-72 bg-white/5 rounded-full blur-[100px] pointer-events-none" />
 
       <div className="max-w-7xl mx-auto px-6 md:px-12 relative z-10">
-        
+
         {/* Section Header */}
         <div className="text-center mb-20">
           <motion.span
@@ -67,7 +72,7 @@ export default function Services() {
           {serviceCategories.map((category, idx) => (
             <div key={category.title} className="border-t border-white/10 pt-12">
               <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 items-start">
-                
+
                 {/* Numeric Indicator & Title */}
                 <div className="lg:col-span-4 flex items-start gap-4">
                   <span className="font-syne font-extrabold text-2xl text-[#b5ff1a]">

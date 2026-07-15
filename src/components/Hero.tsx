@@ -44,11 +44,8 @@ export default function Hero() {
             className="mt-10"
           >
             <a
-              href="#"
-              onClick={(e) => {
-                e.preventDefault();
-                alert("Resume download triggered!");
-              }}
+              href="/aneesh-resume.pdf"
+              download="aneesh-resume.pdf"
               className="inline-flex items-center gap-2 px-8 py-3.5 bg-[#b5ff1a] text-black font-bold rounded-full hover:bg-white transition-all duration-300 shadow-lg shadow-[#b5ff1a]/10 clickable"
             >
               <span>Download Resume</span>

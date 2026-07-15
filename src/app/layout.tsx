@@ -16,9 +16,8 @@ const outfit = Outfit({
 });
 
 export const metadata: Metadata = {
-  title: "Amalia Sanchez | Premium Portfolio",
-  description: "Personal portfolio of Amalia Sanchez, digital designer & developer. Exceeding expectations through clean UI, perfect graphics, and optimized development.",
-  keywords: ["Amalia Sanchez", "UI/UX Design", "Development", "Portfolio", "Web Design", "React", "Next.js"],
+  title: "Hi, I'm Aneesh, a passionate Frontend Developer & UI/UX Designer dedicated to building modern, responsive, and visually engaging digital experiences. I combine creative design thinking with clean, scalable code to create interfaces that are both beautiful and user-friendly..",
+  keywords: ["Aneesh", "UI/UX Design", "Development", "Portfolio", "Web Design", "React", "Next.js"],
 };
 
 export default function RootLayout({

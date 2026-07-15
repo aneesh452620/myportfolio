@@ -5,9 +5,9 @@ import { ArrowRight } from "lucide-react";
 
 export default function About() {
   const stats = [
-    { value: "312+", label: "Project Complete" },
-    { value: "281+", label: "World Clients" },
-    { value: "10+", label: "Years Experience" },
+    { value: "100+", label: "Project Complete" },
+
+    { value: "13+", label: "Years Experience" },
   ];
 
   return (
@@ -67,7 +67,7 @@ export default function About() {
               transition={{ delay: 0.15 }}
               className="text-gray-400 text-base md:text-lg leading-relaxed font-light"
             >
-              Hi, I'm Amalia Sanchez. I have an understanding of the relationship between design and users through detailed execution and proper user experience. I love working on interesting and meaningful projects that I can be proud of, and I always strive to create clean, pixel-perfect interfaces that are smoothly animated. I prefer to prioritize not only code but also quality, perfect graphic design, and optimized development.
+              Hi, I'm Aneesh, a passionate Frontend Developer & UI/UX Designer dedicated to building modern, responsive, and visually engaging digital experiences. I combine creative design thinking with clean, scalable code to create interfaces that are both beautiful and user-friendly.
             </motion.p>
 
             {/* Statistics */}

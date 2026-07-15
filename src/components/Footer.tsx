@@ -79,16 +79,14 @@ export default function Footer() {
     <footer className="bg-[#070707] border-t border-white/5 pt-20 pb-12">
       <div className="max-w-7xl mx-auto px-6 md:px-12">
         <div className="grid grid-cols-1 md:grid-cols-12 gap-12 items-start pb-16">
-          
+
           {/* Brand Info */}
           <div className="md:col-span-6 max-w-md">
             <a href="#home" className="flex items-center gap-2 mb-6">
               <span className="w-8 h-8 rounded-full bg-[#b5ff1a] flex items-center justify-center text-black font-extrabold text-lg">
-                A
+                Ac
               </span>
-              <span className="font-syne font-extrabold tracking-wider text-xl">
-                AS<span className="text-[#b5ff1a]">.</span>
-              </span>
+
             </a>
             <p className="text-gray-400 text-sm md:text-base leading-relaxed font-light">
               Working in development and design has given me a stronger sense of the extraordinary in my digital work.
@@ -132,7 +130,7 @@ export default function Footer() {
         {/* Footer Bottom Bar */}
         <div className="border-t border-white/5 pt-8 flex flex-col md:flex-row items-center justify-between gap-6">
           <p className="text-xs text-gray-500 font-light">
-            © Amalia Sanchez. All rights reserved 2022.
+            © Aneesh. All rights reserved 2022.
           </p>
 
           <button

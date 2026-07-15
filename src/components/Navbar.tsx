@@ -40,9 +40,7 @@ export default function Navbar() {
             <span className="w-8 h-8 rounded-full bg-accent flex items-center justify-center text-black font-extrabold text-lg transition-transform duration-300 group-hover:rotate-45">
               AC
             </span>
-            <span className="font-syne font-extrabold tracking-wider text-xl">
-              AS<span className="text-accent">.</span>
-            </span>
+
           </a>
 
           {/* Nav Items - Desktop */}
