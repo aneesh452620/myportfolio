@@ -3,28 +3,11 @@
 import { motion } from "framer-motion";
 import { ArrowUpRight } from "lucide-react";
 import Image from "next/image";
+import Link from "next/link";
+import { portfolioItems } from "@/data/portfolio";
 
 export default function Portfolio() {
-  const items = [
-    {
-      title: "Dashboard UI",
-      category: "Web Application",
-      image: "/portfolio_dashboard.png",
-      link: "#",
-    },
-    {
-      title: "Mobile App UI",
-      category: "iOS & Android",
-      image: "/portfolio_app.png",
-      link: "#",
-    },
-    {
-      title: "Creative Branding Poster",
-      category: "Branding",
-      image: "/portfolio_poster.png",
-      link: "#",
-    },
-  ];
+  const items = portfolioItems;
 
   return (
     <section id="portfolio" className="py-24 bg-[#070707] relative overflow-hidden">
@@ -57,15 +40,18 @@ export default function Portfolio() {
             <p className="text-gray-400 text-sm md:text-base max-w-xs md:text-right mb-6 leading-relaxed font-light">
               Check out more portfolios I've worked on
             </p>
-            <motion.a
-              href="#"
+            <motion.div
               whileHover={{ scale: 1.05 }}
               whileTap={{ scale: 0.95 }}
-              className="inline-flex items-center gap-2 px-6 py-3 border border-white/10 bg-white/5 rounded-full hover:border-[#b5ff1a] hover:bg-[#b5ff1a] hover:text-black transition-all duration-300 text-sm font-semibold"
             >
-              View More
-              <ArrowUpRight className="w-4 h-4" />
-            </motion.a>
+              <Link
+                href="/portfolio"
+                className="inline-flex items-center gap-2 px-6 py-3 border border-white/10 bg-white/5 rounded-full hover:border-[#b5ff1a] hover:bg-[#b5ff1a] hover:text-black transition-all duration-300 text-sm font-semibold"
+              >
+                View More
+                <ArrowUpRight className="w-4 h-4" />
+              </Link>
+            </motion.div>
           </div>
         </div>
 
