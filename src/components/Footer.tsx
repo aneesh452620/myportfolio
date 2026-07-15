@@ -84,7 +84,7 @@ export default function Footer() {
           <div className="md:col-span-6 max-w-md">
             <a href="#home" className="flex items-center gap-2 mb-6">
               <span className="w-8 h-8 rounded-full bg-[#b5ff1a] flex items-center justify-center text-black font-extrabold text-lg">
-                Ac
+                AC
               </span>
 
             </a>
