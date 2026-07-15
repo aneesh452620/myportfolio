@@ -130,7 +130,7 @@ export default function Footer() {
         {/* Footer Bottom Bar */}
         <div className="border-t border-white/5 pt-8 flex flex-col md:flex-row items-center justify-between gap-6">
           <p className="text-xs text-gray-500 font-light">
-            © Aneesh. All rights reserved 2022.
+            © Aneesh. All rights reserved 2026.
           </p>
 
           <button
